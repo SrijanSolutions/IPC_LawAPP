@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892753163216",
+    "project_id": "ipclawawareness",
+    "storage_bucket": "ipclawawareness.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892753163216:android:01d56da3b5178e0f897fd5",
+        "android_client_info": {
+          "package_name": "com.example.ipclawawareness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN5FmLZwoTb77T66PqoeyF--5gqpuHnIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

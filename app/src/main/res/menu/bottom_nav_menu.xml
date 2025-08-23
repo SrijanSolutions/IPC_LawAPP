@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_laws"
+        android:icon="@drawable/ic_law"
+        android:title="IPC Laws"/>
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/nav_lawyers"
+        android:icon="@drawable/ic_lawyer"
+        android:title="Lawyers"/>
+    <item
+        android:id="@+id/nav_courts"
+        android:icon="@drawable/ic_court"
+        android:title="Courts"/>
+    <item
+        android:id="@+id/nav_case"
+        android:icon="@drawable/ic_case"
+        android:title="Register Case"/>
+</menu>
