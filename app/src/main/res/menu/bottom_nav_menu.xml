@@ -3,7 +3,7 @@
     <item
         android:id="@+id/nav_laws"
         android:icon="@drawable/ic_law"
-        android:title="IPC Laws"/>
+        android:title="BNS Laws"/>
     <item
         android:id="@+id/nav_search"
         android:icon="@drawable/ic_search"
@@ -13,11 +13,11 @@
         android:icon="@drawable/ic_lawyer"
         android:title="Lawyers"/>
     <item
-        android:id="@+id/nav_courts"
-        android:icon="@drawable/ic_court"
-        android:title="Courts"/>
-    <item
         android:id="@+id/nav_case"
         android:icon="@drawable/ic_case"
         android:title="Register Case"/>
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_more"
+        android:title="More"/>
 </menu>

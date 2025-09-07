@@ -135,7 +135,7 @@ public class CaseFragment extends Fragment {
         caseMap.put("caseDescription", caseDescription);
         caseMap.put("userId", userId);
         caseMap.put("date", date);
-        caseMap.put("status", "Pending");
+        caseMap.put("status", "Filed"); // Changed from "Pending" to "Filed"
 
         // Save to Firebase
         if (caseId != null) {

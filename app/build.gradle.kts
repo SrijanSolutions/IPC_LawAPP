@@ -14,7 +14,18 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        multiDexEnabled = true
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    packagingOptions {
+        exclude("META-INF/DEPENDENCIES")
+        exclude("META-INF/LICENSE")
+        exclude("META-INF/LICENSE.txt")
+        exclude("META-INF/license.txt")
+        exclude("META-INF/NOTICE")
+        exclude("META-INF/NOTICE.txt")
     }
 
     buildTypes {
@@ -47,4 +58,9 @@ dependencies {
     //add play services Auth For device verification
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     implementation("com.google.firebase:firebase-analytics:21.5.0")
+    implementation("com.firebaseui:firebase-ui-auth:8.0.2")
+    implementation("de.hdodenhof:circleimageview:3.1.0") //for circular avatars
+
+    implementation("androidx.multidex:multidex:2.0.1")
+    
 }
